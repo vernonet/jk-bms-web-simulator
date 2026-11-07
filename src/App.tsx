@@ -6,9 +6,9 @@
 import React, { useState } from 'react';
 import { Navbar, ActiveTab } from './components/Navbar';
 import { Esp32WebSimulator } from './components/Simulator/Esp32WebSimulator';
-import { CodeExplorer } from './components/CodeViewer/CodeExplorer';
-import { DiffViewer } from './components/DiffViewer/DiffViewer';
-import { ArduinoGuide } from './components/ArduinoGuide/ArduinoGuide';
+//import { CodeExplorer } from './components/CodeViewer/CodeExplorer';
+//import { DiffViewer } from './components/DiffViewer/DiffViewer';
+//import { ArduinoGuide } from './components/ArduinoGuide/ArduinoGuide';
 import { FirmwareConfigurator } from './components/Configurator/FirmwareConfigurator';
 import { ProtocolDocs } from './components/ProtocolDocs/ProtocolDocs';
 import { ReadmeViewer } from './components/ReadmeViewer/ReadmeViewer';
