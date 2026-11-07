@@ -81,9 +81,9 @@ export default function App() {
 
         {/* Tab Content Panels */}
         {activeTab === 'simulator' && <Esp32WebSimulator initialLanguage="en" />}
-        {activeTab === 'code' && <CodeExplorer />}
-        {activeTab === 'diff' && <DiffViewer />}
-        {activeTab === 'arduino' && <ArduinoGuide />}
+        //{activeTab === 'code' && <CodeExplorer />}
+        //{activeTab === 'diff' && <DiffViewer />}
+        //{activeTab === 'arduino' && <ArduinoGuide />}
         {activeTab === 'config' && <FirmwareConfigurator />}
         {activeTab === 'protocol' && <ProtocolDocs />}
         {activeTab === 'readme' && <ReadmeViewer />}
