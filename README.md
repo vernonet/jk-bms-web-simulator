@@ -12,7 +12,7 @@ This repository hosts a standalone interactive emulator of the original interfac
 ## 🚀 Live Simulation
 You can interact with the live telemetry interface without needing real hardware or flashing a microchip. The emulator acts exactly like the configuration web page served directly by the ESP32.
 
-👉 **[Launch the Live Web Simulator Dashboard](https://github.io)**
+👉 **[Launch the Live Web Simulator Dashboard](https://vernonet.github.io/jk-bms-web-simulator/)**
 
 ---
 
@@ -50,6 +50,4 @@ If you want to run this simulator dashboard locally on your desktop or modify th
 
 ## 🗂️ Project Attribution
 This web laboratory is an extension and documentation interface companion for the master backend firmware codebase. The primary source-code framework belongs to the open-source repository asset:
-🔗 **[vernonet/ESP32_PRJ](https://vernonet.github.io/jk-bms-web-simulator/)**
-
-
+🔗 **[vernonet/ESP32_PRJ](https://github.com/vernonet/ESP32_PRJ/tree/main/esp32_jk_bms)**
