@@ -4,9 +4,6 @@ An interactive, web-based live simulation of the customized embedded web server 
 
 This repository hosts a standalone interactive emulator of the original interface, completely cleaned up and fully translated into English.
 
-[![Live Demo](https://shields.io)](https://github.io)
-[![Language](https://shields.io)](https://github.com)
-
 ---
 
 ## 🚀 Live Simulation
