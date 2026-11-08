@@ -15,8 +15,6 @@ You can interact with the live telemetry interface without needing real hardware
 
 ## 📋 Features In Focus
 
-- **100% English Localized:** All system settings, battery status tables, configuration menus, logs, and labels have been meticulously translated into proper, idiomatic English.
-- **0% Cyrillic Artifacts:** Every line of HTML/JS UI data code has been scrubbed to prevent browser encoding glitches and telemetry breakages.
 - **Interactive Controls:** Toggle settings, simulation states, and explore system configuration panes exactly as they appear on a real network device node.
 - **Asynchronous AJAX Simulation:** Emulates live polling with JSON payloads mimicking raw real-time data streaming over dynamic Ajax calls.
 
