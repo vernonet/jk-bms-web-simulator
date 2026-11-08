@@ -20,27 +20,25 @@ You can interact with the live telemetry interface without needing real hardware
 
 ---
 
-## 💻 Local Development & Installation
+## ⚙️ Automated Deployment & GitHub Pages Setup
 
-If you want to run this simulator dashboard locally on your desktop or modify the interface components:
+This repository is configured to build and deploy completely automatically via GitHub Actions. You don't need to install Node.js or run any local servers to update the live simulator.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com
-   cd jk-bms-web-simulator
-   ```
+### One-Time Repository Configuration:
+To enable the web preview, you must activate GitHub Pages in this repository's settings:
+1. Open this repository on GitHub and click the **Settings** (⚙️) tab at the top.
+2. In the left sidebar menu, find the **Code and automation** section and click **Pages**.
+3. Under the **Build and deployment** block, find the **Source** dropdown menu.
+4. Change the source selection from *Deploy from a branch* to **GitHub Actions**.
 
-2. **Install node dependencies:**
-   ```bash
-   npm install --legacy-peer-deps
-   ```
+### How the Workflow Works:
+Once enabled, every time you commit changes or push code to the `main` branch, the internal workflow (`.github/workflows/deploy.yml`) handles everything automatically:
+- **Environment Setup:** Boots a virtual Ubuntu environment with Node.js 20.
+- **Dependency Management:** Installs required packages cleanly using isolated production trees.
+- **Production Build:** Compiles the React + TypeScript code into highly optimized static assets using Vite.
+- **Live Publishing:** Automatically uploads the build artifacts and updates your live site preview.
 
-3. **Start the local Vite server:**
-   ```bash
-   npm run dev
-   ```
-   Open your browser at `http://localhost:5173` to test.
-
+*Note: If you ever need to force a manual deployment without updating the code, go to the **Actions** tab on GitHub, select the deploy workflow, and click the **Run workflow** dropdown button.*
 ---
 
 ## 🗂️ Project Attribution
